@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './index.less';
 
-export default (props:any) => {
+export default (props) => {
 console.log("props", props)
   return (
     <div className={styles.pageCnter}>

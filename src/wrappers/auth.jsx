@@ -6,7 +6,7 @@ const useAuth = () => {
   }
 };
 
-export default (props:any) => {
+export default (props) => {
   const { history: { location: { pathname } } } = props;
   const { isLogin } = useAuth();
 
