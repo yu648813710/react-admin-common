@@ -1,0 +1,53 @@
+.bannerBox {
+  position: relative;
+  width: 800px;
+  height: 400px;
+  overflow: hidden;
+  .bannerCenter{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 2s;
+    .item{
+      float: left;
+      width: 800px;
+      height: 300px;
+      background: chocolate;
+      color:#000;
+      font-size: 50px;
+      text-align: center;
+      line-height: 300px;
+    }
+  }
+  .button{
+    position: absolute;
+    top: 50%;
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    margin-top: -25px;
+    cursor: pointer;
+  }
+  .button.right{
+    right: 0;
+  }
+  .flexBox{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    .item{
+      width: 50px;
+      height: 50px;
+      background: #000;
+      color: #fff;
+      border: 1px solid #fff;
+      box-sizing: content-box;
+      flex-grow: 1;
+    }
+    .one{
+      flex-grow: 1;
+    }
+  }
+}
